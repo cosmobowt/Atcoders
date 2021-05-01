@@ -9,7 +9,6 @@ int main()
     cin >> s;
 
     int found = s.find(pres, 0);
-    int ssize = s.size();
 
     while (found != string::npos)
     {
