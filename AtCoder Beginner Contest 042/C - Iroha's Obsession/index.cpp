@@ -21,7 +21,6 @@ int main()
     while (n++)
     {
         string s = to_string(n);
-        cout << s;
         int found;
         for (auto i : v)
         {
@@ -30,8 +29,9 @@ int main()
         }
         int maxi = *max_element(v2.begin(), v2.end());
         n = stoi(s);
-        if (found != 0)
+        if (maxi > 0)
             break;
+        v2.clear();
     }
 
     cout << n;
