@@ -11,9 +11,10 @@ int main()
     {
         if (s[i] == 'B')
         {
-            naya.pop_back();
+            if (naya != "")
+                naya.pop_back();
         }
-        else if (s[i] >= 0)
+        else
         {
             naya += s[i];
         }
