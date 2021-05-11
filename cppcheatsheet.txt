@@ -1,0 +1,14 @@
+Vectors:
+sort(v.begin(),v.end());
+sort(v.rbegin(),v.rend());
+reverse(v.begin(),v.end());
+*max_element(v.begin(),v.end());
+*mix_element(v.begin(),v.end());
+accumulate(v.begin(),v.end(), 0);
+count(v.begin(),v.end(),x);
+binary_search(v.begin(),v.end(),x);
+int uniqueCount = std::unique(vtwo.begin(), vtwo.end()) - vtwo.begin(); //make a vector unique
+
+Strings:
+int found = string.find(x, 0);
+while (found != string::npos) //npos is counter in string length
