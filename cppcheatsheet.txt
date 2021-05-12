@@ -12,3 +12,8 @@ int uniqueCount = std::unique(vtwo.begin(), vtwo.end()) - vtwo.begin(); //make a
 Strings:
 int found = string.find(x, 0);
 while (found != string::npos) //npos is counter in string length
+
+//int to string
+to_string
+//string to int
+stoi
