@@ -1,3 +1,8 @@
+vector< pair <int,int> > vect
+vect.push_back( make_pair(arr[i],arr1[i]) )
+vect[i].first 
+vect[i].second 
+
 Vectors:
 sort(v.begin(),v.end());
 sort(v.rbegin(),v.rend());
