@@ -7,4 +7,18 @@ typedef pair<int, int> P;
 
 int main()
 {
+    vector<int> x;
+    vector<int> y;
+
+    fu(i, 3)
+    {
+        int a, b;
+        cin >> a >> b;
+        bool forx = false;
+        bool fory = false;
+        for (int i : x)
+        {
+            if (x[i] == a)
+        }
+    }
 }
